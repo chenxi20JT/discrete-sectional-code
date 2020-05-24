@@ -1,0 +1,6 @@
+test2 sectional bin width. Kappa is changed by the parameter binPer2 (the number of bins for the bin width to grow by a factor of 2).
+a) binPer2 = 5      kappa = 1.148
+b) binPer2 = 10    kappa = 1.0718
+c) binPer2 = 20    kappa = 1.0353
+d) binPer2 = 40    kappa = 1.0175
+e) binPer2 = 1      kappa = 2

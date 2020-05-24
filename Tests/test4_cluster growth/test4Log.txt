@@ -1,0 +1,6 @@
+test4 pure discrrete model to test cluster growth
+MP.initConc(1)     = 1e7;
+MP.initConc(3)     = 1e4;
+MP.RR = 0;  
+
+NOTE!!!:  in the GDEqns.m file the monomer collision rate is set to 0. This is the only test case in which the GDEqn.m file is modified.

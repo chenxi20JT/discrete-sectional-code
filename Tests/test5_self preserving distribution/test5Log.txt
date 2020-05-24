@@ -1,0 +1,2 @@
+test5 self-preserving distribution in the free molecular regime
+set RR to 0

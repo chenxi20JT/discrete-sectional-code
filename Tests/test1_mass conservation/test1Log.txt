@@ -1,0 +1,4 @@
+test1 mass balance
+note the monomer production rate RR is named R1 in the tutorial 
+a. set RR = 0   
+b. set RR = 5e3

@@ -1,0 +1,2 @@
+test3 asymptotic solution for N1 and Ntot
+set coagulation kernel to "uniform"

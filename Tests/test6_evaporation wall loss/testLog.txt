@@ -1,0 +1,5 @@
+test6 wall loss and evaporation
+a) without both
+b) with wall loss 
+c) with evaporation
+d) with wall loss and evaporation
