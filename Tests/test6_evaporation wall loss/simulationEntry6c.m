@@ -68,8 +68,8 @@ MP.svgLoss      = 0;
 MP.dilution     = 0;  
 MP.satPressure  = 2e4;   
 
-MP.CAL_COEFFS      = true;       
-MP.CAL_SINK_PARAMS = true; 
+MP.CAL_COEFFS      = false;       
+MP.CAL_SINK_PARAMS = false; 
 MP.CONST_MONOMER   = false; 
 MP.COAG_OFF        = false;  
 MP.GROW_BEY_BOUND  = true;

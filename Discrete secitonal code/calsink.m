@@ -42,10 +42,14 @@ end
 disp('complete loss-to-preexisting-particles parameters');
 
 %calculate scaling of evaporation rates
-e0_coeffs(1) = 0;
-%discrete
+e0_coeffs(1) = 0; % for monomer, evaporation does not happen
+%e0_coeffs(2) is treated differently
+% *2 is to account for the factor of 2 in Eqn. 1 in the tutorial
+% 0.5 is to account for the facotr of 0.5 in the collision rate constant
+% when two monomers collide
+% *2 and *0.5 cancells out,but e0_coeffs(2) is written out here explicitly for clarity
 if ND > 1
-    e0_coeffs(2) = 2/2*calevap(c_kernel,A,2);
+    e0_coeffs(2) = 1/2*calevap(c_kernel,A,2)*2*0.5; 
 end
 if ND > 2
     for i = 3:ND

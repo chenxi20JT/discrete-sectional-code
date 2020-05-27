@@ -68,6 +68,13 @@ MP.svgLoss = 0;
 MP.dilution = 0;  
 MP.satPressure  = 0;  
 
+% specify true/false options
+MP.CAL_COEFFS      = false;       
+MP.CAL_SINK_PARAMS = false; 
+MP.CONST_MONOMER   = false;   
+MP.COAG_OFF        = false;    
+MP.GROW_BEY_BOUND  = false;   
+
 % choose a collision kernel for particles
 MP.KERNEL  = 'free';  
           
@@ -88,12 +95,7 @@ MP.rho     = 1.47e3;
 MP.mMono   = 2.4e-25;  
 MP.surfaceTension = 67.5e-3; 
 
-% specify true/false options
-MP.CONST_MONOMER   = false;   
-MP.COAG_OFF        = false;    
-MP.GROW_BEY_BOUND  = false;                                 
-MP.CAL_COEFFS      = false;       
-MP.CAL_SINK_PARAMS = false; 
+                              
 
 %Calculate other model parameters based on the user input 
 MP = refinemodelparams(MP);

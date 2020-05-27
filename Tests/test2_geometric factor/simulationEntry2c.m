@@ -69,8 +69,8 @@ MP.svgLoss = 0;
 MP.dilution = 0;  
 MP.satPressure  = 0;   
                                  
-MP.CAL_COEFFS      = true;       
-MP.CAL_SINK_PARAMS = true; 
+MP.CAL_COEFFS      = false;       
+MP.CAL_SINK_PARAMS = false; 
 MP.CONST_MONOMER   = false;  % if this is true, the monomer concentration will remain constant throught the simulation
 MP.COAG_OFF        = false;   % if this is true, coagualtion between clusters will be turned off
                              
